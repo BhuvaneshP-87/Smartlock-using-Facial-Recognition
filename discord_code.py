@@ -67,30 +67,8 @@ async def on_message(message):
         await message.channel.send("The face recognition feature at the door has been successfully enabled.")
     
         
-client.run('ODQ2NDAxNjQ5ODQ4NDgzODUx.YKu-9g.O2jKozR4crORJ69f7d7LuP_NJb4')                                
-# # Defining main function
-# def main():
-#     global isOpen,isEmergency,isUltimate
-#     client.run('ODQ2NDAxNjQ5ODQ4NDgzODUx.YKu-9g.O2jKozR4crORJ69f7d7LuP_NJb4')
-#     print("Running")
-#     while True:
-#         if isUltimate and not isOpen:
-#             temp=recognise_face()
-#             send_entry(temp)
-        
-#         if isEmergency:
-#             temp=emergency_recording()
-#             send_emergency_recording(temp)
-#             isEmergency=False
-        
+client.run(token)                                
 
-        
-  
-  
-# # Using the special variable 
-# # __name__
-# if __name__=="__main__":
-#     main()
 
 
 
